@@ -19,12 +19,5 @@ const Cart = () => {
             <li key={item.id}>
               {item.name} - {item.price}
               <button onClick={() => removeFromCart(item.id)}>Remove</button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-};
-
+          
 export default Cart;
