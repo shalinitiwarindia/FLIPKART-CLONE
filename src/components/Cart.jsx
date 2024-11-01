@@ -14,10 +14,4 @@ const Cart = () => {
       {cart.length === 0 ? (
         <p>No items in the cart.</p>
       ) : (
-        <ul>
-          {cart.map((item) => (
-            <li key={item.id}>
-              {item.name} - {item.price}
-              <button onClick={() => removeFromCart(item.id)}>Remove</button>
-          
-export default Cart;
+   
